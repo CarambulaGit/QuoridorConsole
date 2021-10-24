@@ -1,0 +1,48 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Study\\QuoridorConsole\\QuoridorConsole.csproj": {}
+  },
+  "projects": {
+    "C:\\Study\\QuoridorConsole\\QuoridorConsole.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Study\\QuoridorConsole\\QuoridorConsole.csproj",
+        "projectName": "QuoridorConsole",
+        "projectPath": "C:\\Study\\QuoridorConsole\\QuoridorConsole.csproj",
+        "packagesPath": "C:\\Users\\antib\\.nuget\\packages\\",
+        "outputPath": "C:\\Study\\QuoridorConsole\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\antib\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net40"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net40": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net40": {}
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
