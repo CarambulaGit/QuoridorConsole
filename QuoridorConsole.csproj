@@ -57,6 +57,7 @@
         <Compile Include="Models\Player\Player.cs" />
         <Compile Include="Models\Player\RandomBot.cs" />
         <Compile Include="Models\Player\StupidBot.cs" />
+        <Compile Include="Models\Player\SuperDuperUltraGiperBot.cs" />
         <Compile Include="Models\Utils.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
