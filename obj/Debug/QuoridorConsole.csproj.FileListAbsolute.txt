@@ -1,0 +1,8 @@
+C:\Study\QuoridorConsole\bin\Debug\QuoridorConsole.exe
+C:\Study\QuoridorConsole\bin\Debug\QuoridorConsole.pdb
+C:\Study\QuoridorConsole\bin\Debug\System.Threading.Tasks.dll
+C:\Study\QuoridorConsole\obj\Debug\QuoridorConsole.csproj.AssemblyReference.cache
+C:\Study\QuoridorConsole\obj\Debug\QuoridorConsole.csproj.ResolveComReference.cache
+C:\Study\QuoridorConsole\obj\Debug\QuoridorConsole.csproj.CoreCompileInputs.cache
+C:\Study\QuoridorConsole\obj\Debug\QuoridorConsole.exe
+C:\Study\QuoridorConsole\obj\Debug\QuoridorConsole.pdb
