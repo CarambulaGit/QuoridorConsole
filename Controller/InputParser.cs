@@ -7,13 +7,6 @@ namespace QuoridorConsole.Controller
 {
     public class InputParser
     {
-        Player player;
-
-        public InputParser(Player player)
-        {
-            this.player = player;
-        }
-
         private Dictionary<char, int> coordinates = new Dictionary<char, int>
         {
             { 'A', 0 },
@@ -52,7 +45,7 @@ namespace QuoridorConsole.Controller
             return new Wall(y, x, wallType);
         }
 
-        public Point GetPawnPointFromString(string str)
+        private Point GetPawnPointFromString(string str)
         {
             var yInt = int.Parse(str[1].ToString());
 
@@ -62,7 +55,7 @@ namespace QuoridorConsole.Controller
             return new Point(y, x);
         }
 
-        public Action ParseInputString(string str)
+        public Action ParseInputString(Player player, string str)
         {
             string[] strArr = str.Split(' ');
             string command = strArr[0];
@@ -80,13 +73,6 @@ namespace QuoridorConsole.Controller
             {
                 throw new System.ArgumentException();
             }
-        }
-
-        public Action GetCommandFromStdin()
-        {
-            Console.Write("Enter next command: ");
-            var command = Console.ReadLine();
-            return ParseInputString(command);
         }
     }
 }
