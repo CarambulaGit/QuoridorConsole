@@ -44,6 +44,7 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Controller\InputParser.cs" />
+        <Compile Include="Controller\OutputService.cs" />
         <Compile Include="Models\Consts.cs" />
         <Compile Include="Models\Field\Field.cs" />
         <Compile Include="Models\Field\FieldSpace.cs" />

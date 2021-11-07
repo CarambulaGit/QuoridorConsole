@@ -35,6 +35,12 @@ namespace QuoridorConsole.Controller
             { 'h', Wall.Type.Horizontal }
         };
 
+        private Dictionary<string, int> indexByColor = new Dictionary<string, int>
+        {
+            { "white", 0 },
+            { "black", 1 }
+        };
+
         private Wall GetWallFromString(string str)
         {
             var yInt = int.Parse(str[1].ToString());
@@ -74,6 +80,10 @@ namespace QuoridorConsole.Controller
             {
                 throw new System.ArgumentException();
             }
+        }
+
+        public int ParseColor(string color) {
+            return indexByColor[color];
         }
     }
 }
