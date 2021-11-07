@@ -27,7 +27,7 @@ namespace QuoridorConsole {
                     return;
                 }
                 
-                _parser.ParseInputString(player, Console.ReadLine());
+                _parser.ParseInputString(player, Console.ReadLine()).Invoke();
             };
             
             bot.OnPawnMoved += outputService.MoveCommand;
