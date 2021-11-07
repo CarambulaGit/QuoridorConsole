@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Project.Classes;
 using Project.Classes.Field;
 using Project.Classes.Player;
 
@@ -61,11 +62,11 @@ namespace QuoridorConsole.Controller
             string command = strArr[0];
             string strCoordinates = strArr[1];
 
-            if (command == "wall")
+            if (command == Consts.SET_WALL_COMMAND)
             {
                 return () => player.TrySetWall(GetWallFromString(strCoordinates));
             }
-            else if (command is "move" or "jump")
+            else if (command is Consts.MOVE_COMMAND or Consts.JUMP_COMMAND)
             {
                 return () => player.TryMovePawn(GetPawnPointFromString(strCoordinates));
             }
